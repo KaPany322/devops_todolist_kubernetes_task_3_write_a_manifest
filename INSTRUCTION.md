@@ -15,5 +15,5 @@ To curl todoapp with busybox run:
 ```
 kubectl -n todoapp exec -it busybox -- sh
 
-curl {pod_ip}8080
+curl {pod_ip}:8080
 ```
